@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="26b5e27e-3aff-401d-aaad-6c726a211c87" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ServiceReservasi/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="4f4ef8e0-7410-4a1a-92e4-61b1231b90d0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServiceReservasi/Service1/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="c40f18c4-90cc-4d9b-aa90-33733fe060a7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServiceReservasi/Service1/?xsd=xsd0" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="b9f74397-e29d-47b6-8cbd-0ee0d56a79e7" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServiceReservasi/Service1/?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="7bead655-312a-4a27-801a-388c2f891088" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServiceReservasi/Service1/?wsdl" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="3b7a95f1-0b42-4a75-9125-083906b9e4a8" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServiceReservasi/Service1/?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
