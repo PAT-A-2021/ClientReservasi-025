@@ -8,289 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ClientReservasi_025.ServiceReference1 {
+namespace ClientReservasi_025.ServiceReference2 {
     using System.Runtime.Serialization;
     using System;
     
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CekLokasi", Namespace="http://schemas.datacontract.org/2004/07/ServiceReservasi")]
-    [System.SerializableAttribute()]
-    public partial class CekLokasi : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DeskripsiSingkatField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string IDLokasiField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NamaLokasiField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string DeskripsiSingkat {
-            get {
-                return this.DeskripsiSingkatField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DeskripsiSingkatField, value) != true)) {
-                    this.DeskripsiSingkatField = value;
-                    this.RaisePropertyChanged("DeskripsiSingkat");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string IDLokasi {
-            get {
-                return this.IDLokasiField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.IDLokasiField, value) != true)) {
-                    this.IDLokasiField = value;
-                    this.RaisePropertyChanged("IDLokasi");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string NamaLokasi {
-            get {
-                return this.NamaLokasiField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NamaLokasiField, value) != true)) {
-                    this.NamaLokasiField = value;
-                    this.RaisePropertyChanged("NamaLokasi");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="DetailLokasi", Namespace="http://schemas.datacontract.org/2004/07/ServiceReservasi")]
-    [System.SerializableAttribute()]
-    public partial class DetailLokasi : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DeskripsiFullField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string IDLokasiField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int KuotaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NamaLokasiField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string DeskripsiFull {
-            get {
-                return this.DeskripsiFullField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DeskripsiFullField, value) != true)) {
-                    this.DeskripsiFullField = value;
-                    this.RaisePropertyChanged("DeskripsiFull");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string IDLokasi {
-            get {
-                return this.IDLokasiField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.IDLokasiField, value) != true)) {
-                    this.IDLokasiField = value;
-                    this.RaisePropertyChanged("IDLokasi");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int Kuota {
-            get {
-                return this.KuotaField;
-            }
-            set {
-                if ((this.KuotaField.Equals(value) != true)) {
-                    this.KuotaField = value;
-                    this.RaisePropertyChanged("Kuota");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string NamaLokasi {
-            get {
-                return this.NamaLokasiField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NamaLokasiField, value) != true)) {
-                    this.NamaLokasiField = value;
-                    this.RaisePropertyChanged("NamaLokasi");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Pemesanan", Namespace="http://schemas.datacontract.org/2004/07/ServiceReservasi")]
-    [System.SerializableAttribute()]
-    public partial class Pemesanan : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string IDPemesananField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int JumlahPemesananField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string LokasiField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NamaCustomerField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NoTelponField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string IDPemesanan {
-            get {
-                return this.IDPemesananField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.IDPemesananField, value) != true)) {
-                    this.IDPemesananField = value;
-                    this.RaisePropertyChanged("IDPemesanan");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int JumlahPemesanan {
-            get {
-                return this.JumlahPemesananField;
-            }
-            set {
-                if ((this.JumlahPemesananField.Equals(value) != true)) {
-                    this.JumlahPemesananField = value;
-                    this.RaisePropertyChanged("JumlahPemesanan");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Lokasi {
-            get {
-                return this.LokasiField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.LokasiField, value) != true)) {
-                    this.LokasiField = value;
-                    this.RaisePropertyChanged("Lokasi");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string NamaCustomer {
-            get {
-                return this.NamaCustomerField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NamaCustomerField, value) != true)) {
-                    this.NamaCustomerField = value;
-                    this.RaisePropertyChanged("NamaCustomer");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string NoTelpon {
-            get {
-                return this.NoTelponField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NoTelponField, value) != true)) {
-                    this.NoTelponField = value;
-                    this.RaisePropertyChanged("NoTelpon");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
@@ -386,7 +107,7 @@ namespace ClientReservasi_025.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IService1")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference2.IService1")]
     public interface IService1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/pemesanan", ReplyAction="http://tempuri.org/IService1/pemesananResponse")]
@@ -408,23 +129,23 @@ namespace ClientReservasi_025.ServiceReference1 {
         System.Threading.Tasks.Task<string> deletePemesananAsync(string IDPemesanan);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ReviewLokasi", ReplyAction="http://tempuri.org/IService1/ReviewLokasiResponse")]
-        ClientReservasi_025.ServiceReference1.CekLokasi[] ReviewLokasi();
+        ServiceReservasi.CekLokasi[] ReviewLokasi();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/ReviewLokasi", ReplyAction="http://tempuri.org/IService1/ReviewLokasiResponse")]
-        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.CekLokasi[]> ReviewLokasiAsync();
+        System.Threading.Tasks.Task<ServiceReservasi.CekLokasi[]> ReviewLokasiAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DetailLokasi", ReplyAction="http://tempuri.org/IService1/DetailLokasiResponse")]
-        ClientReservasi_025.ServiceReference1.DetailLokasi[] DetailLokasi();
+        ServiceReservasi.DetailLokasi[] DetailLokasi();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DetailLokasi", ReplyAction="http://tempuri.org/IService1/DetailLokasiResponse")]
-        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.DetailLokasi[]> DetailLokasiAsync();
+        System.Threading.Tasks.Task<ServiceReservasi.DetailLokasi[]> DetailLokasiAsync();
         
         // CODEGEN: Generating message contract since the wrapper name (Pemesanan) of message PemesananRequest does not match the default value (Pemesanan1)
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Pemesanan", ReplyAction="http://tempuri.org/IService1/PemesananResponse")]
-        ClientReservasi_025.ServiceReference1.PemesananResponse Pemesanan1(ClientReservasi_025.ServiceReference1.PemesananRequest request);
+        ClientReservasi_025.ServiceReference2.PemesananResponse Pemesanan1(ClientReservasi_025.ServiceReference2.PemesananRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Pemesanan", ReplyAction="http://tempuri.org/IService1/PemesananResponse")]
-        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.PemesananResponse> Pemesanan1Async(ClientReservasi_025.ServiceReference1.PemesananRequest request);
+        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference2.PemesananResponse> Pemesanan1Async(ClientReservasi_025.ServiceReference2.PemesananRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Login", ReplyAction="http://tempuri.org/IService1/LoginResponse")]
         string Login(string username, string password);
@@ -451,10 +172,10 @@ namespace ClientReservasi_025.ServiceReference1 {
         System.Threading.Tasks.Task<string> DeleteRegisterAsync(string username);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DataRegist", ReplyAction="http://tempuri.org/IService1/DataRegistResponse")]
-        ClientReservasi_025.ServiceReference1.DataRegister[] DataRegist();
+        ClientReservasi_025.ServiceReference2.DataRegister[] DataRegist();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/DataRegist", ReplyAction="http://tempuri.org/IService1/DataRegistResponse")]
-        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.DataRegister[]> DataRegistAsync();
+        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference2.DataRegister[]> DataRegistAsync();
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -474,23 +195,23 @@ namespace ClientReservasi_025.ServiceReference1 {
     public partial class PemesananResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public ClientReservasi_025.ServiceReference1.Pemesanan[] PemesananResult;
+        public ServiceReservasi.Pemesanan[] PemesananResult;
         
         public PemesananResponse() {
         }
         
-        public PemesananResponse(ClientReservasi_025.ServiceReference1.Pemesanan[] PemesananResult) {
+        public PemesananResponse(ServiceReservasi.Pemesanan[] PemesananResult) {
             this.PemesananResult = PemesananResult;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : ClientReservasi_025.ServiceReference1.IService1, System.ServiceModel.IClientChannel {
+    public interface IService1Channel : ClientReservasi_025.ServiceReference2.IService1, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<ClientReservasi_025.ServiceReference1.IService1>, ClientReservasi_025.ServiceReference1.IService1 {
+    public partial class Service1Client : System.ServiceModel.ClientBase<ClientReservasi_025.ServiceReference2.IService1>, ClientReservasi_025.ServiceReference2.IService1 {
         
         public Service1Client() {
         }
@@ -535,41 +256,41 @@ namespace ClientReservasi_025.ServiceReference1 {
             return base.Channel.deletePemesananAsync(IDPemesanan);
         }
         
-        public ClientReservasi_025.ServiceReference1.CekLokasi[] ReviewLokasi() {
+        public ServiceReservasi.CekLokasi[] ReviewLokasi() {
             return base.Channel.ReviewLokasi();
         }
         
-        public System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.CekLokasi[]> ReviewLokasiAsync() {
+        public System.Threading.Tasks.Task<ServiceReservasi.CekLokasi[]> ReviewLokasiAsync() {
             return base.Channel.ReviewLokasiAsync();
         }
         
-        public ClientReservasi_025.ServiceReference1.DetailLokasi[] DetailLokasi() {
+        public ServiceReservasi.DetailLokasi[] DetailLokasi() {
             return base.Channel.DetailLokasi();
         }
         
-        public System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.DetailLokasi[]> DetailLokasiAsync() {
+        public System.Threading.Tasks.Task<ServiceReservasi.DetailLokasi[]> DetailLokasiAsync() {
             return base.Channel.DetailLokasiAsync();
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ClientReservasi_025.ServiceReference1.PemesananResponse ClientReservasi_025.ServiceReference1.IService1.Pemesanan1(ClientReservasi_025.ServiceReference1.PemesananRequest request) {
+        ClientReservasi_025.ServiceReference2.PemesananResponse ClientReservasi_025.ServiceReference2.IService1.Pemesanan1(ClientReservasi_025.ServiceReference2.PemesananRequest request) {
             return base.Channel.Pemesanan1(request);
         }
         
-        public ClientReservasi_025.ServiceReference1.Pemesanan[] Pemesanan1() {
-            ClientReservasi_025.ServiceReference1.PemesananRequest inValue = new ClientReservasi_025.ServiceReference1.PemesananRequest();
-            ClientReservasi_025.ServiceReference1.PemesananResponse retVal = ((ClientReservasi_025.ServiceReference1.IService1)(this)).Pemesanan1(inValue);
+        public ServiceReservasi.Pemesanan[] Pemesanan1() {
+            ClientReservasi_025.ServiceReference2.PemesananRequest inValue = new ClientReservasi_025.ServiceReference2.PemesananRequest();
+            ClientReservasi_025.ServiceReference2.PemesananResponse retVal = ((ClientReservasi_025.ServiceReference2.IService1)(this)).Pemesanan1(inValue);
             return retVal.PemesananResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.PemesananResponse> ClientReservasi_025.ServiceReference1.IService1.Pemesanan1Async(ClientReservasi_025.ServiceReference1.PemesananRequest request) {
+        System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference2.PemesananResponse> ClientReservasi_025.ServiceReference2.IService1.Pemesanan1Async(ClientReservasi_025.ServiceReference2.PemesananRequest request) {
             return base.Channel.Pemesanan1Async(request);
         }
         
-        public System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.PemesananResponse> Pemesanan1Async() {
-            ClientReservasi_025.ServiceReference1.PemesananRequest inValue = new ClientReservasi_025.ServiceReference1.PemesananRequest();
-            return ((ClientReservasi_025.ServiceReference1.IService1)(this)).Pemesanan1Async(inValue);
+        public System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference2.PemesananResponse> Pemesanan1Async() {
+            ClientReservasi_025.ServiceReference2.PemesananRequest inValue = new ClientReservasi_025.ServiceReference2.PemesananRequest();
+            return ((ClientReservasi_025.ServiceReference2.IService1)(this)).Pemesanan1Async(inValue);
         }
         
         public string Login(string username, string password) {
@@ -604,11 +325,11 @@ namespace ClientReservasi_025.ServiceReference1 {
             return base.Channel.DeleteRegisterAsync(username);
         }
         
-        public ClientReservasi_025.ServiceReference1.DataRegister[] DataRegist() {
+        public ClientReservasi_025.ServiceReference2.DataRegister[] DataRegist() {
             return base.Channel.DataRegist();
         }
         
-        public System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference1.DataRegister[]> DataRegistAsync() {
+        public System.Threading.Tasks.Task<ClientReservasi_025.ServiceReference2.DataRegister[]> DataRegistAsync() {
             return base.Channel.DataRegistAsync();
         }
     }
